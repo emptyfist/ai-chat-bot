@@ -67,13 +67,9 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to get start
 - [Preview](#preview)
   - [🧩 Browser Automation with Playwright MCP](#-browser-automation-with-playwright-mcp)
   - [🔗 Visual Workflows as Custom Tools](#-visual-workflows-as-custom-tools)
-  - [🤖 Custom Agents](#-custom-agents)
-  - [🎙️ Realtime Voice Assistant + MCP Tools](#️-realtime-voice-assistant--mcp-tools)
-  - [⚡️ Quick Tool Mentions (`@`) \& Presets](#️-quick-tool-mentions---presets)
   - [🧭 Tool Choice Mode](#-tool-choice-mode)
   - [🛠️ Default Tools](#️-default-tools)
     - [🌐 Web Search](#-web-search)
-    - [⚡️ JS,PYTHON Executor](#️-jspython-executor)
     - [📊 Data Visualization Tools](#-data-visualization-tools)
 - [Getting Started](#getting-started)
   - [Quick Start (Docker Compose Version) 🐳](#quick-start-docker-compose-version-)
@@ -101,7 +97,7 @@ Get a feel for the UX — here's a quick look at what's possible.
 
 ### 🧩 Browser Automation with Playwright MCP
 
-![preview](https://github.com/user-attachments/assets/e4febb04-26d5-45da-a7bb-f7d452d333c2)
+[preview](https://github.com/user-attachments/assets/02e80d60-b4f9-41fb-83a6-da3ae6c69c0c)
 
 **Example:** Control a web browser using Microsoft's [playwright-mcp](https://github.com/microsoft/playwright-mcp) tool.
 
@@ -124,8 +120,6 @@ Sample prompt:
 
 ### 🔗 Visual Workflows as Custom Tools
 
-<img width="1912" height="953" alt="workflow" loading="lazy" src="https://github.com/user-attachments/assets/e69e72e8-595c-480e-b519-4531f4c6331f" />
-
 <img width="1567" alt="workflow-mention" loading="lazy" src="https://github.com/user-attachments/assets/cf3e1339-ee44-4615-a71d-f6b46833e41f" />
 
 **Example:** Create custom workflows that become callable tools in your chat conversations.
@@ -135,50 +129,6 @@ Sample prompt:
 - Chain complex multi-step processes into reusable, automated sequences
 
 <br/>
-
-### 🤖 Custom Agents
-
-<img width="1567" alt="agent-example" loading="lazy" src="https://github.com/user-attachments/assets/d0a325c0-ff1e-4038-b6bf-fcf57659a5c1" />
-
-**Example:** Create specialized AI agents with custom instructions and tool access.
-
-- Define custom agents with specific system prompts and available tools
-- Easily invoke agents in chat using `@agent_name`
-- Build task-specific assistants like a GitHub Manager agent with issue/PR tools and project context
-
-For instance, create a GitHub Manager agent by:
-
-- Providing GitHub tools (issue/PR creation, comments, queries)
-- Adding project details to the system prompt
-- Calling it with `@github_manager` to manage your repository
-
-<br/>
-
-### 🎙️ Realtime Voice Assistant + MCP Tools
-
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/e2657b8c-ce0b-40dd-80b6-755324024973" width="100%" />
-</p>
-
-This demo showcases a **realtime voice-based chatbot assistant** built with OpenAI's new Realtime API — now extended with full **MCP tool integration**.
-Talk to the assistant naturally, and watch it execute tools in real time.
-
-### ⚡️ Quick Tool Mentions (`@`) & Presets
-
-<img width="1225" alt="image" src="https://github.com/user-attachments/assets/dfe76b3b-c3d8-436e-8a7c-7b23292e234c" loading="lazy"/>
-
-Quickly call tool during chat by typing `@toolname`.
-No need to memorize — just type `@` and pick from the list!
-
-**Tool Selection vs. Mentions (`@`) — When to Use What:**
-
-- **Tool Selection**: Make frequently used tools always available to the LLM across all chats. Great for convenience and maintaining consistent context over time.
-- **Mentions (`@`)**: Temporarily bind only the mentioned tools for that specific response. Since only the mentioned tools are sent to the LLM, this saves tokens and can improve speed and accuracy.
-
-Each method has its own strengths — use them together to balance efficiency and performance.
-
-You can also create **tool presets** by selecting only the MCP servers or tools you need.
-Switch between presets instantly with a click — perfect for organizing tools by task or workflow.
 
 ### 🧭 Tool Choice Mode
 
@@ -203,10 +153,6 @@ Built-in web search powered by [Exa AI](https://exa.ai). Search the web with sem
 - **Optional:** Add `EXA_API_KEY` to `.env` to enable web search
 - **Free Tier:** 1,000 requests/month at no cost, no credit card required
 - **Easy Setup:** Get your API key instantly at [dashboard.exa.ai](https://dashboard.exa.ai)
-
-#### ⚡️ JS,PYTHON Executor
-
-<img width="1225" alt="js-executor-preview" src="https://github.com/user-attachments/assets/7deed824-e70b-46d4-a294-de20ed4dc869" loading="lazy"/>
 
 It is a simple JS execution tool.
 
