@@ -29,7 +29,7 @@
 6. **Enter LLM Provider API Keys in Project Settings.**
    After deployment, go to your project's **Settings > Environments** tab. Here, enter the API keys for the LLM providers you wish to use. You only need to enter the keys for the providers you actually plan to use—other fields can be left blank or filled with dummy values.
 
-   - Example environment file: [example.env](https://github.com/cgoinglove/better-chatbot/blob/main/.env.example)
+   - Example environment file: [example.env](https://github.com/emptyfist/ai-chat-bot/blob/main/.env.example)
      
    <img width="1712" alt="step6" src="https://github.com/user-attachments/assets/2d197389-a865-46ac-9156-40cad64258ca" />
 
