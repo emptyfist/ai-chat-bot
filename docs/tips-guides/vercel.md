@@ -6,13 +6,13 @@
 
 2. **Click the "Create" button** on Vercel to begin setting up your project.
 
-   <img width="1254" alt="step2" src="https://github.com/user-attachments/assets/66806fa8-2d55-4e57-ad7e-2f37ef037a97" />
+   <img width="809" height="726" alt="01" src="https://github.com/user-attachments/assets/caf55308-a2f3-46e4-948d-6c586398bb74" />
 
 
 3. **Add Neon Postgres and create a database.**
    Click the "Neon Postgres Add" button to create a database. This is available even on the free plan.
 
-   <img width="1329" alt="step3" src="https://github.com/user-attachments/assets/d0f3848e-e45b-4c20-843e-7c452c297e51" />
+   <img width="757" height="758" alt="02" src="https://github.com/user-attachments/assets/5c7ce175-e6eb-4ee0-aa0f-99e2b2cb3f26" />
 
 
 4. **Add Environment Variables.**
